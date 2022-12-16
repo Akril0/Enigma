@@ -44,12 +44,28 @@
 			{
 				get => new Rotor(Type.Rotor, "BDFHJLCPRTXVZNYEIWGAKMUSQO")
 				{
-					Notch = 'D',
-					Turnover = 'V',
+					Notch = 'E',
+					Turnover = 'C',
 				};
 			}
+            public static Rotor IV
+            {
+                get => new Rotor(Type.Rotor, "VZNKDXHJLCPYEMFBARTUIWGSQO")
+                {
+                    Notch = 'A',
+                    Turnover = 'V',
+                };
+            }
+            public static Rotor V
+            {
+                get => new Rotor(Type.Rotor, "CPUITKDXHWNYEMFGVRJLZBASQO")
+                {
+                    Notch = 'K',
+                    Turnover = 'L',
+                };
+            }
 
-		}
+        }
 
 		/// <summary>
 		/// Reflectors

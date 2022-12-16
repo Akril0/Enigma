@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "Enigma": {
+      "commandName": "Project",
+      "workingDirectory": "C:\\Users\\Dell\\source\\repos\\Enigma\\Enigma.Example"
+    }
+  }
+}

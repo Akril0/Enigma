@@ -15,6 +15,8 @@
 		Rotor_I,
 		Rotor_II,
 		Rotor_III,
+		Rotor_IV,
+		Rotor_V,
 	}
 
 	public enum ReflectorType : uint

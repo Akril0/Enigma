@@ -31,7 +31,13 @@ namespace Enigma
 				case RotorType.Rotor_III:
 					rotor = HistoricData.EnigmaI.III;
 					break;
-				default:
+                case RotorType.Rotor_IV:
+                    rotor = HistoricData.EnigmaI.IV;
+                    break;
+                case RotorType.Rotor_V:
+                    rotor = HistoricData.EnigmaI.V;
+                    break;
+                default:
 					throw new Exceptions.EnigmaRotorsException();
 			}
 			rotor.SetHead(head);
